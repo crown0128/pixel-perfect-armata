@@ -19,7 +19,7 @@ gulp.task("browser-sync", function() {
 });
 
 gulp.task("styles", function() {
-  return gulp.src("app/scss/main.scss")
+  return gulp.src("app/scss/index.scss")
     .pipe(sass({ outputStyle: "expanded" }).on("error", notify.onError()))
     .pipe(rename({ suffix: ".min", prefix : "" }))
     .pipe(autoprefixer(["last 15 versions"]))

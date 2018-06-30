@@ -1,0 +1,68 @@
+.offer-form {
+  padding: 38px 32px;
+  width: 297px;
+  border-bottom: 4px solid #1c242c;
+  background-color: rgba(36,51,67, 0.8);
+}
+
+.offer-form__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: "PFCentroSlabProBold", "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.offer-form__text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  color: #97a4b2;
+}
+
+.offer-form__label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+  color: #778390;
+}
+
+.offer-form__input {
+  display: block;
+  width: 100%;
+  padding: 14px 0px;
+  border: none;
+  box-shadow: 0 -3px #1F2A36;
+  background-color: #34465A;
+  font-family: "PFCentroSlabProBold", "Raleway", sans-serif;
+  text-indent: 10px;
+  color: #fff;
+}
+
+.offer-form__wrapper {
+  margin-bottom: 23px;
+}
+
+.offer-form__button {
+  display: block;
+  padding: 12px 34px;
+  margin: 0 auto;
+  margin-top: 32px;
+  font-family: "PFCentroSlabProBold", "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  background-color: #f29d38;
+  border: none;
+  border-bottom: 3px solid #b87121;
+  cursor: pointer;
+}
+
+.offer-form__button:hover, .offer-form__button:focus {
+  background-color: #ffa63a;
+}

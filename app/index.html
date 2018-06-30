@@ -6,13 +6,88 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta property="og:image" content="path/to/image.jpg">
 	<link rel="icon" href="img/favicon/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-	<meta name="theme-color" content="#000">
+	<meta name="theme-color" content="#2c3a48">
   <meta name="description" content="">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/main.min.css">
+  <title>Armata Financical Group</title>
+  <link rel="stylesheet" href="css/index.min.css">
 </head>
 <body>
+  <header class="page-header">
+    <div class="page-header__container container">
+      <div class="page-header__header header">
+        <div class="header__logo">
+          <a class="header__logo-link" href="#">
+            <img class="header__logo-image" src="img/logo.svg" alt="Armata Financical Group" height="48" width="100">
+          </a>
+        </div>
+        <div class="header__navigation">
+          <nav class="header__nav main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link main-nav__link--selected" href="#">Главная</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">О компании</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Оценка</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Сделки M&A</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Бухгалтерские услуги</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__contact">
+          <a class="header__phone" href="tel: +79999999">+7 (495) 00-99-56</a>
+        </div>
+      </div>
+      <div class="page-header__intro intro">
+        <div class="intro__information">
+          <h1 class="intro__title">Armata Financical Group</h1>
+          <ul class="intro__list">
+            <li class="intro__item">
+              <a class="intro__link" href="#">Независимая оценка имущества</a>
+            </li>
+            <li class="intro__item">
+              <a class="intro__link" href="#">Сделки cлияния и поглощения</a>
+            </li>
+            <li class="intro__item">
+              <a class="intro__link" href="#">Бухгалтерские услуги</a>
+            </li>
+          </ul>
+        </div>
+        <div class="intro__form offer-form">
+          <h2 class="offer-form__heading">Заявка</h2>
+          <p class="offer-form__text">
+            Оставьте заявку и мы свяжемся с вами<br>
+            в течение 15 минут в рабочее<br>
+            время с 10:00 до 18:00 c пн-пт.
+          </p>
+          <form class="offer-form__form" action="#" method="post">
+            <div class="offer-form__wrapper">
+              <label class="offer-form__label" for="name">Ваше имя:</label>
+              <input class="offer-form__input" id="name" name="user-name" type="text" required>
+            </div>
+            <div class="offer-form__wrapper">
+              <label class="offer-form__label" for="phone">Ваше телефон:</label>
+              <input class="offer-form__input" id="phone" name="user-phone" type="text" required>
+            </div>
+            <button class="offer-form__button">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="page-header__arrow-wrapper">
+        <button class="page-header__arrow" type="button">Опуститься вниз</button>
+      </div>
+    </div>
+  </header>
   <script src="js/scripts.min.js"></script>
 </body>
 </html>

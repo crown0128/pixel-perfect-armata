@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 48px;
+}
+
+.header__navigation {
+  margin-left: 80px;
+}
+
+.header__phone {
+  font-family: "RobotoBold", "RalewayBold", sans-serif;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0;
+  color: #fff;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.header__phone:hover {
+  color: #f29d38;
+  text-decoration: underline;
+
+}
