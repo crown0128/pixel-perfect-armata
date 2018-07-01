@@ -39,6 +39,7 @@
 
 .evaluation__continuation {
   background-color: #394c5e;
+  padding-bottom: 75px;
 }
 
 .evaluation__scales {
@@ -55,14 +56,10 @@
   z-index: 2;
 }
 
-.evaluation__continuation {
-  padding-bottom: 70px;
-}
-
 .evaluation__order {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 172px;
+  height: 177px;
   background-color: #2c3948;
 }
