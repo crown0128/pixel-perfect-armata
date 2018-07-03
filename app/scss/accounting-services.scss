@@ -1,0 +1,116 @@
+.accounting-services {
+  position: relative;
+  padding-top: 100px;
+  min-height: 850px;
+  background-color: #2c3a48;
+}
+
+.accounting-services__wrapper {
+  min-height: 850px;
+  padding-bottom: 63px;
+  background-image: url("/img/s3_sun_bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.accounting-services__intro {
+  margin-bottom: 25px;
+}
+
+.accounting-services__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #fff;
+}
+
+.accounting-services__item {
+  width: 250px;
+  height: 120px;
+}
+
+.accounting-services__item:nth-child(1) {
+  padding-top: 145px;
+  padding-left: 130px;
+}
+
+.accounting-services__item:nth-child(2) {
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.accounting-services__item:nth-child(3) {
+  padding-top: 145px;
+  padding-left: 100px;
+}
+
+.accounting-services__item:nth-child(4) {
+  padding-top: 80px;
+  padding-left: 45px;
+}
+
+.accounting-services__item:nth-child(5) {
+  width: 130px;
+  height: 130px;
+  padding-top: 89px;
+  padding-left: 209px;
+}
+
+.accounting-services__item:nth-child(6) {
+   padding-top: 80px;
+   padding-left: 240px;
+ }
+
+.accounting-services__item:nth-child(7) {
+  padding-top: 80px;
+  padding-left: 130px;
+}
+
+.accounting-services__item:nth-child(8) {
+  padding-left: 50px;
+  padding-top: 200px;
+}
+
+.accounting-services__item:nth-child(9) {
+  padding-left: 100px;
+  padding-top: 80px;
+}
+
+.accounting-services__list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.accounting-services__title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.accounting-services__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.accounting-services__link {
+  font-family: "PFCentroSlabProMedium", "RobotoBold", "RalewayBold", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #f39f18;
+}
+
+.accounting-services__link:hover {
+  text-decoration: none;
+}
+
+.accounting-services__img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  background-color: #F39F18;
+  border-radius: 10em;
+}

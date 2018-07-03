@@ -9,3 +9,8 @@
 .decoration--top::before {
   top: -6px;
 }
+
+.decoration--blue::before {
+  top: -6px;
+  background-image: url("/img/bah_2.png");
+}
