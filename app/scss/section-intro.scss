@@ -65,3 +65,15 @@
   text-decoration: none;
 }
 
+.section-intro--about {
+  display: block;
+}
+
+.section-intro__title--about::after {
+  left: 83px;
+}
+
+.section-intro__text {
+  text-align: left;
+}
+

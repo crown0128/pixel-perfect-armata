@@ -1,0 +1,66 @@
+.about {
+  background-color: #f9f9f9;
+  padding-bottom: 100px;
+}
+
+.about__intro {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.about__content {
+  width: 750px;
+}
+
+.about__wrapper  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.about__item {
+  width: 165px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-weight: 400;
+}
+
+.about__text::before {
+  display: block;
+  content: "";
+  height: 70px;
+  width: 70px;
+  margin-bottom: 30px;
+  background-image: url("/img/icons/section_8/1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__text--certificate::before {
+  background-image: url("/img/icons/section_8/2.svg");
+}
+
+.about__text--certificate2::before {
+  background-image: url("/img/icons/section_8/3.svg");
+}
+
+.about__text--medalist::before {
+  background-image: url("/img/icons/section_8/4.svg");
+}
