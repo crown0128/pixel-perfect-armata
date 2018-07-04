@@ -24,5 +24,13 @@
 .header__phone:hover {
   color: #f29d38;
   text-decoration: underline;
+  opacity: 1;
+}
 
+.header__phone--footer {
+  opacity: 0.5;
+}
+
+.header__logo-image--footer {
+  opacity: 0.5;
 }

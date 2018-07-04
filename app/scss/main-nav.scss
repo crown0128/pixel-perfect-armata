@@ -30,6 +30,10 @@
 
 .main-nav__link:hover {
   color: #f29d38;
+  opacity: 1;
   text-decoration: underline;
 }
 
+.main-nav__link--footer {
+  opacity: 0.5;
+}
