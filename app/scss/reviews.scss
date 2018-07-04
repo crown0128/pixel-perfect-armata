@@ -1,0 +1,91 @@
+.reviews {
+  background-color: #e5e5e5;
+  padding-bottom: 140px;
+}
+
+.reviews__content-wrapper {
+  position: relative;
+}
+
+.reviews__intro {
+  padding-bottom: 60px;
+}
+
+.reviews__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.reviews__review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.reviews__img {
+  display: block;
+  border-radius: 100px;
+  border: 5px solid #f29d38;
+  margin-bottom: 20px;
+}
+
+.reviews__author {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.reviews__company {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #6e7b8b;
+}
+
+.reviews__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 942px;
+  text-align: center;
+}
+
+.reviews__button {
+  position: absolute;
+  top: 50%;
+  width: 15px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  background-image: url("/img/slider_arrows.png");
+  background-repeat: no-repeat;
+  text-indent: -9999em;
+  transition-timing-function: ease;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.reviews__button:hover {
+  opacity: 1;
+}
+
+.reviews__button--prev {
+  left: 40px;
+}
+
+.reviews__button--next {
+  right: 40px;
+  transform: rotate(180deg);
+}
