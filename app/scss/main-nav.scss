@@ -29,11 +29,17 @@
 }
 
 .main-nav__link:hover {
-  color: #f29d38;
+  color: $yellow;
   opacity: 1;
   text-decoration: underline;
 }
 
 .main-nav__link--footer {
   opacity: 0.5;
+}
+
+.main-nav__link--selected {
+  text-decoration: underline;
+  color: $yellow;
+  opacity: 1;
 }

@@ -1,5 +1,5 @@
 .reviews {
-  background-color: #e5e5e5;
+  background-color: $gray;
   padding-bottom: 140px;
 }
 
@@ -28,14 +28,14 @@
 .reviews__img {
   display: block;
   border-radius: 100px;
-  border: 5px solid #f29d38;
+  border: 5px solid $yellow;
   margin-bottom: 20px;
 }
 
 .reviews__author {
   display: block;
   margin-bottom: 5px;
-  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $RalewayBold;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

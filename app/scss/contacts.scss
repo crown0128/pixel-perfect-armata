@@ -1,5 +1,5 @@
 .contacts {
-  background-color: #f9f9f9;
+  background-color: $light-gray;
 }
 
 .contacts__intro {
@@ -31,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e5e5e5;
+  background-color: $gray;
   padding: 0 30px;
   margin: 0 15px;
   width: 202px;
@@ -50,7 +50,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 5px solid #d6d6d6;
+  border: 5px solid $dark-gray;
 }
 
 .contacts__title--human2::before {
@@ -63,11 +63,11 @@
 
 .contacts__title {
   margin: 0;
-  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $RalewayBold;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: #333333;
+  color: $main;
 }
 
 .contacts__text {
@@ -79,10 +79,10 @@
 }
 
 .contacts__link {
-  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $RalewayBold;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: #333333;
+  color: $main;
   text-decoration: none;
 }

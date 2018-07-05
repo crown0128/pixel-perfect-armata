@@ -10,7 +10,7 @@
 }
 
 .header__phone {
-  font-family: "RobotoBold", "RalewayBold", sans-serif;
+  font-family: $RobotoBold;
   font-size: 20px;
   line-height: 42px;
   letter-spacing: 0;
@@ -22,7 +22,7 @@
 }
 
 .header__phone:hover {
-  color: #f29d38;
+  color: $yellow;
   text-decoration: underline;
   opacity: 1;
 }

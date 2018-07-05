@@ -8,7 +8,6 @@
 
 .assessments-types__item {
   width: 290px;
-
 }
 
 .assessments-types__item--top:nth-child(1) {
@@ -61,16 +60,16 @@
 }
 
 .assessments-types__description--bottom {
-  color: #f3f3f3;
-  border-bottom: 1px solid #546474;
+  color: $light-gray;
+  border-bottom: 1px solid #546476;
 }
 
 .assessments-types__link {
-  font-family: "PFCentroSlabProMedium", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $PFCentroSlabProMedium;
   font-weight: 400;
   font-size: 22px;
   line-height: 24px;
-  color: #f39f18;
+  color: $yellow;
 }
 
 .assessments-types__link:hover {

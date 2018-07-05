@@ -1,5 +1,5 @@
 .about {
-  background-color: #f9f9f9;
+  background-color: $light-gray;
   padding-bottom: 100px;
 }
 
@@ -37,7 +37,7 @@
   margin: 0;
   font-size: 13px;
   line-height: 16px;
-  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $RalewayBold;
   font-weight: 400;
 }
 

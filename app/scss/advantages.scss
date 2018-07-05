@@ -1,5 +1,5 @@
 .advantages {
-  background-color: #e5e5e5;
+  background-color: $gray;
 }
 
 .advantages__types-container {
@@ -9,13 +9,13 @@
 .advantages__title {
   margin: 0;
   margin-bottom: 50px;
-  font-family: PFCentroSlabProMedium,RobotoBold,Helvetica,sans-serif;
+  font-family: $PFCentroSlabProMedium;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 36px;
   text-align: center;
-  color: #394b5f;
+  color: $blue;
 }
 
 .advantages__intro {
@@ -40,7 +40,7 @@
   margin: 0 15px;
   width: 200px;
   height: 377px;
-  background-color: #2c3948;
+  background-color: $navyblue;
 }
 
 .advantages__item-wrapper {
@@ -52,7 +52,7 @@
 .advantages__type-title {
   display: block;
   margin-bottom: 25px;
-  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $RalewayBold;
   font-size: 16px;
   line-height: 36px;
   text-align: center;
@@ -66,7 +66,7 @@
   width: 120px;
   height: 120px;
   margin-bottom: 40px;
-  background-color: #f29e38;
+  background-color: $yellow;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 100px;
@@ -97,5 +97,5 @@
 }
 
 .advantages__percent {
-  color: #f39f18;
+  color: $yellow;
 }

@@ -10,10 +10,10 @@
   display: block;
   margin: 0;
   margin-bottom: 56px;
-  font-family: "PFCentroSlabProMedium", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $PFCentroSlabProMedium;
   font-size: 30px;
   line-height: 36px;
-  color: #2c3949;
+  color: $navyblue;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -27,7 +27,7 @@
   transform: translate(-50%, -50%);
   height: 4px;
   width: 165px;
-  background-color: #f29d38;
+  background-color: $yellow;
 }
 
 .section-intro__text {
@@ -43,7 +43,7 @@
 }
 
 .section-intro__strong {
-  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $RalewayBold;
   font-weight: 400;
 }
 
@@ -56,9 +56,9 @@
 }
 
 .section-intro__link {
-  font-family: "RalewayBold", "RobotoBold", "Helvetica", sans-serif;
+  font-family: $RalewayBold;
   font-weight: 400;
-  color: #f29d39;
+  color: $yellow;
 }
 
 .section-intro__link:hover {
