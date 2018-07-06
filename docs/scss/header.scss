@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 48px;
+}
+
+.header__navigation {
+  margin-left: 80px;
+}
+
+.header__phone {
+  font-family: $RobotoBold;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0;
+  color: #fff;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.header__phone:hover {
+  color: $yellow;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.header__phone--footer {
+  opacity: 0.5;
+}
+
+.header__logo-image--footer {
+  opacity: 0.5;
+}
+
+.header__mobile-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__button {
+  display: none;
+  height: 18px;
+  width: 28px;
+  background-image: url(/img/nav.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  color: transparent;
+  text-indent: -9999em;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0;
+}
+
+.header__button--open {
+  background-image: url(/img/exit.svg);
+}
+
+@media (max-width: $desktop-width) {
+
+  .header {
+    position: relative;
+    justify-content: flex-end;
+    height: auto;
+  }
+
+  .header__logo {
+    flex-grow: 1;
+  }
+
+  .header__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__navigation {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    margin: 0;
+  }
+
+  .header__navigation--open {
+    display: block;
+  }
+
+  .header__button {
+    display: block;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+
+  .header {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .header__logo {
+    flex-grow: 0;
+  }
+
+  .header__logo-image {
+    width: 75px;
+  }
+
+  .header__phone {
+    font-size: 15px;
+  }
+
+  .header__button {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+}

@@ -1,0 +1,26 @@
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 177px;
+}
+
+.line--white {
+  background-color: $gray;
+}
+
+.line--blue {
+  background-color: $navyblue;
+}
+
+.line--light-blue {
+  background-color: $blue;
+}
+
+.line--gray {
+  background-color: $dark-gray;
+}
+
+@media (max-width: $tablet-width) {
+
+}

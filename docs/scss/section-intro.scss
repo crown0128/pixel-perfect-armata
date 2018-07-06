@@ -1,0 +1,96 @@
+.section-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-intro__title {
+  position: relative;
+  display: block;
+  margin: 0;
+  margin-bottom: 56px;
+  font-family: $PFCentroSlabProMedium;
+  font-size: 30px;
+  text-align: center;
+  line-height: 36px;
+  color: $navyblue;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.section-intro__title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4px;
+  width: 165px;
+  background-color: $yellow;
+}
+
+.section-intro__text {
+  margin: 0;
+  max-width: 942px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.section-intro__text--white {
+  color: #fff;
+}
+
+.section-intro__strong {
+  font-family: $RalewayBold;
+  font-weight: 400;
+}
+
+.section-intro__strong--white {
+  color: #fff;
+}
+
+.section-intro__title--white {
+  color: #fff;
+}
+
+.section-intro__link {
+  font-family: $RalewayBold;
+  font-weight: 400;
+  color: $yellow;
+}
+
+.section-intro__link:hover {
+  text-decoration: none;
+}
+
+.section-intro__title--about {
+  width: 100%;
+  text-align: left;
+}
+
+.section-intro__text--about {
+  text-align: left;
+}
+
+.section-intro__title--about::after {
+  left: 83px;
+}
+
+@media (max-width: $tablet-width) {
+
+  .section-intro__title--about {
+    text-align: center;
+  }
+
+  .section-intro__text--about {
+    text-align: center;
+  }
+
+  .section-intro__title--about::after {
+    left: 50%;
+  }
+
+}

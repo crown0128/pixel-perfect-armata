@@ -1,0 +1,100 @@
+.contacts {
+  background-color: $light-gray;
+}
+
+.contacts__intro {
+  padding-bottom: 70px;
+}
+
+.contacts__people {
+  padding-bottom: 70px;
+}
+
+.contacts__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__item__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $gray;
+  padding: 0 30px;
+  margin: 0 15px;
+  width: 202px;
+  height: 347px;
+}
+
+.contacts__title::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  height: 110px;
+  width: 110px;
+  border-radius: 100px;
+  background-image: url("/img/team/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 5px solid $dark-gray;
+}
+
+.contacts__title--human2::before {
+  background-image: url("/img/team/2.jpg");
+}
+
+.contacts__title--human3::before {
+  background-image: url("/img/team/3.jpg");
+}
+
+.contacts__title {
+  margin: 0;
+  font-family: $RalewayBold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: $main;
+}
+
+.contacts__text {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #6e7b8b;
+}
+
+.contacts__link {
+  font-family: $RalewayBold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: $main;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+
+  .contacts__list {
+    flex-wrap: wrap;
+  }
+
+  .contacts__item {
+    margin-bottom: 30px;
+  }
+
+}

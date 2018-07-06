@@ -1,0 +1,112 @@
+.advantages {
+  background-color: $gray;
+}
+
+.advantages__types-container {
+  padding-bottom: 70px;
+}
+
+.advantages__title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: $PFCentroSlabProMedium;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: $blue;
+}
+
+.advantages__intro {
+  margin-bottom: 53px;
+}
+
+.advantages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 32px;
+  margin: 0 15px;
+  width: 200px;
+  height: 377px;
+  background-color: $navyblue;
+}
+
+.advantages__item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages__type-title {
+  display: block;
+  margin-bottom: 25px;
+  font-family: $RalewayBold;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.advantages__type-title::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 40px;
+  background-color: $yellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.advantages__type-title--discounts::before {
+  background-image: url("/img/icons/section_4/1.svg");
+  background-size: 80px 30px;
+}
+
+.advantages__type-title--team::before {
+  background-image: url("/img/icons/section_4/2.svg");
+  background-size: 73px 47px;
+}
+
+.advantages__type-title--speed::before {
+  background-image: url("/img/icons/section_4/3.svg");
+  background-size: 68px 67px;
+}
+
+.advantages__type-text {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #97a4b2;
+  min-height: 72px;
+}
+
+.advantages__percent {
+  color: $yellow;
+}
+
+@media (max-width: 1200px) {
+
+  .advantages__item {
+    margin-bottom: 30px;
+  }
+
+  .advantages__item:last-child {
+    margin-bottom: 0  ;
+  }
+}
