@@ -47,22 +47,22 @@
   height: 70px;
   width: 70px;
   margin-bottom: 30px;
-  background-image: url("/img/icons/section_8/1.svg");
+  background-image: url("../img/icons/section_8/1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .about__text--certificate::before {
-  background-image: url("/img/icons/section_8/2.svg");
+  background-image: url("../img/icons/section_8/2.svg");
 }
 
 .about__text--certificate2::before {
-  background-image: url("/img/icons/section_8/3.svg");
+  background-image: url("../img/icons/section_8/3.svg");
 }
 
 .about__text--medalist::before {
-  background-image: url("/img/icons/section_8/4.svg");
+  background-image: url("../img/icons/section_8/4.svg");
 }
 
 @media (max-width: $desktop-width) {

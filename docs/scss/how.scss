@@ -33,22 +33,22 @@
   height: 40px;
   width: 35px;
   padding-right: 7px;
-  background-image: url("/img/icons/section_5/1.svg");
+  background-image: url("../img/icons/section_5/1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .how__item-wrapper--contract::before {
-  background-image: url("/img/icons/section_5/2.svg");
+  background-image: url("../img/icons/section_5/2.svg");
 }
 
 .how__item-wrapper--evaluation::before {
-  background-image: url("/img/icons/section_5/3.svg");
+  background-image: url("../img/icons/section_5/3.svg");
 }
 
 .how__item-wrapper--reply::before {
-  background-image: url("/img/icons/section_5/4.svg");
+  background-image: url("../img/icons/section_5/4.svg");
 }
 
 .how__item {
@@ -58,14 +58,14 @@
   justify-content: flex-end;
   width: 277px;
   height: 150px;
-  background-image: url("/img/tc_triangle.svg");
+  background-image: url("../img/tc_triangle.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 286px 128px;
 }
 
 .how__item:first-child {
-  background-image: url("/img/tc_triangle_first.svg");
+  background-image: url("../img/tc_triangle_first.svg");
   left: 45px;
 }
 
