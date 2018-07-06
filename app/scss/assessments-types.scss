@@ -81,3 +81,18 @@
   line-height: 18px;
   margin: 0;
 }
+
+
+
+@media (max-width: 1200px) {
+
+  .assessments-types__item {
+    margin-bottom: 10px;
+  }
+
+  .assessments-types__item:nth-child(1n) {
+    width: 768px;
+    padding: 0;
+  }
+
+}

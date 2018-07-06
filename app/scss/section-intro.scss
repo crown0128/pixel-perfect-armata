@@ -12,6 +12,7 @@
   margin-bottom: 56px;
   font-family: $PFCentroSlabProMedium;
   font-size: 30px;
+  text-align: center;
   line-height: 36px;
   color: $navyblue;
   text-transform: uppercase;
@@ -22,7 +23,7 @@
   content: "";
   display: block;
   position: absolute;
-  top: 65px;
+  bottom: -30px;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 4px;
@@ -65,15 +66,31 @@
   text-decoration: none;
 }
 
-.section-intro--about {
-  display: block;
-}
-
-.section-intro__title--about::after {
-  left: 83px;
+.section-intro__title--about {
+  width: 100%;
+  text-align: left;
 }
 
 .section-intro__text--about {
   text-align: left;
 }
 
+.section-intro__title--about::after {
+  left: 83px;
+}
+
+@media (max-width: $tablet-width) {
+
+  .section-intro__title--about {
+    text-align: center;
+  }
+
+  .section-intro__text--about {
+    text-align: center;
+  }
+
+  .section-intro__title--about::after {
+    left: 50%;
+  }
+
+}

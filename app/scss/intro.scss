@@ -46,3 +46,31 @@
   border-left: 6px solid $yellow;
   border-top: 6px solid transparent;
 }
+
+@media (max-width: $desktop-width) {
+  .page-header__intro {
+    flex-wrap: wrap;
+  }
+
+  .intro__information {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+
+  .intro__title {
+    font-size: 42px;
+    line-height: 45px;
+    padding-bottom: 15px;
+  }
+
+  .intro__link {
+    line-height: 23px;
+  }
+
+  .intro__item {
+    margin-bottom: 12px;
+  }
+
+}

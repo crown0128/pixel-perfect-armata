@@ -90,3 +90,53 @@
   right: 40px;
   transform: rotate(180deg);
 }
+
+.reviews__mobile-slider {
+  display: none;
+}
+
+.reviews__dots {
+  display: flex;
+  width: 65px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.reviews__dot-button {
+  display: block;
+  height: 15px;
+  width: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.reviews__dot {
+  margin: 0 3px;
+}
+
+.reviews__dot-button--active {
+  background-color: $yellow;
+}
+
+@media (max-width: $tablet-width) {
+
+  .reviews {
+    padding-bottom: 100px;
+  }
+
+  .reviews__button {
+    display: none;
+  }
+
+  .reviews__text {
+    margin-bottom: 20px;
+  }
+
+  .reviews__mobile-slider {
+    display: block;
+  }
+
+}

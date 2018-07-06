@@ -23,7 +23,7 @@
         <div class="header__navigation">
           <nav class="header__nav main-nav">
             <ul class="main-nav__list">
-              <li class="main-nav__item">
+              <li class="main-nav__item main-nav__item--selected">
                 <a class="main-nav__link main-nav__link--selected" href="#">Главная</a>
               </li>
               <li class="main-nav__item">
@@ -46,6 +46,9 @@
         </div>
         <div class="header__contact">
           <a class="header__phone" href="tel: +79999999">+7 (495) 00-99-56</a>
+        </div>
+        <div class="header__mobile-button">
+          <button class="header__button">Открыть меню</button>
         </div>
       </div>
       <div class="page-header__intro intro">
@@ -88,422 +91,443 @@
       </div>
     </div>
   </header>
-  <section class="evaluation decoration decoration--top">
-    <div class="evaluation__content-wrapper">
-      <div class="evaluation__wrapper">
-        <div class="evaluation__intro section-intro container">
-          <h2 class="section-intro__title">Независимая оценка имущества</h2>
+  <main class="page-content">
+    <section class="evaluation decoration decoration--top">
+      <div class="evaluation__content-wrapper">
+        <div class="evaluation__wrapper">
+          <div class="evaluation__intro section-intro container">
+            <h2 class="section-intro__title section-intro__title--evaluation-mobile">Независимая оценка имущества</h2>
+            <p class="section-intro__text">
+              <b class="section-intro__strong">Определение рыночной стоимости</b> любого актива, или <a class="section-intro__link" href="#">оценка</a> — это первый этап всех рыночных отношений. Оценка заключается в объективном анализе объекта с целью придания ему стоимостных характеристик, выраженных в едином денежном эквиваленте.
+            </p>
+          </div>
+          <div class="evaluation__types assessments-types">
+            <div class="evaluation__list-wrapper evaluation__list-wrapper--bg container">
+              <ul class="assessments-types__list">
+                <li class="assessments-types__item assessments-types__item--top">
+                  <h3 class="assessments-types__title">
+                    <a class="assessments-types__link" href="#">Оценка ценных <br>  бумаг</a>
+                  </h3>
+                  <p class="assessments-types__description">Определение рыночной стоимости ценных бумаг и документов</p>
+                </li>
+                <li class="assessments-types__item assessments-types__item--top">
+                  <h3 class="assessments-types__title">
+                    <a class="assessments-types__link" href="#">Оценка бизнеса и предприятий</a>
+                  </h3>
+                  <p class="assessments-types__description">Профессиональная оценка бизнес-активов предприятия</p>
+                </li>
+                <li class="assessments-types__item assessments-types__item--top">
+                  <h3 class="assessments-types__title">
+                    <a class="assessments-types__link" href="#">Оценка недвижимости</a>
+                  </h3>
+                  <p class="assessments-types__description">Профессиональная оценка жилого и нежилого имущества</p>
+                </li>
+                <li class="assessments-types__item assessments-types__item--top">
+                  <h3 class="assessments-types__title">
+                    <a class="assessments-types__link" href="#">Оценка машин и оборудования</a>
+                  </h3>
+                  <p class="assessments-types__description">Профессиональная оценка машин и оборудования для бизнеса</p>
+                </li>
+                <li class="assessments-types__item assessments-types__item--top">
+                  <h3 class="assessments-types__title">
+                    <a class="assessments-types__link" href="#">Оценка инвестиционных проектов</a>
+                  </h3>
+                  <p class="assessments-types__description">Независимая оценка бизнес проектов любого направления</p>
+                </li>
+              </ul>
+            </div>
+            <div class="evaluation__triangle">
+              <img class="evaluation__logo" src="/img/logo_triangle.svg" alt="Логотип Armata Financical Groul" height="55" width="118">
+              <img class="evaluation__scales" src="/img/icons/section_1/scales.svg" alt="Логотип Armata Financical Groul" height="174" width="159">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="evaluation__continuation">
+        <div class="evaluation__list-wrapper container">
+          <ul class="assessments-types__list">
+            <li class="assessments-types__item assessments-types__item--bottom">
+              <h3 class="assessments-types__title">
+                <a class="assessments-types__link" href="#">Оценка нематериальных активов</a>
+              </h3>
+              <p class="assessments-types__description assessments-types__description--bottom">Определение стоимости нематериальных активов различных видов</p>
+            </li>
+            <li class="assessments-types__item assessments-types__item--bottom">
+              <h3 class="assessments-types__title">
+                <a class="assessments-types__link" href="#">Оценка себестоимости продукции</a>
+              </h3>
+              <p class="assessments-types__description assessments-types__description--bottom">Определение себестоимости продукции и ее прибыльности</p>
+            </li>
+            <li class="assessments-types__item assessments-types__item--bottom">
+              <h3 class="assessments-types__title">
+                <a class="assessments-types__link" href="#">Бизнес-планирование <br> и оценка</a>
+              </h3>
+              <p class="assessments-types__description assessments-types__description--bottom">Разработка бизнес-плана и оценка его эффективности</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="evaluation__line line line--blue">
+        <button class="line__button button" type="button">Заказать оценку</button>
+      </div>
+    </section>
+    <section class="transactions decoration decoration--top">
+      <div class="transactions__intro section-intro container">
+        <h2 class="section-intro__title">Сделки M&A</h2>
+        <p class="section-intro__text">
+          <b class="section-intro__strong">Сделки cлияния и поглощения</b> – это процессы укрупнения бизнеса и капитала. Популярность сделки слияния и поглощения приобрели в конце 80-х годов и сейчас они являются одним из основных движущих факторов развития бизнеса на макро и микроуровне. Эффективность сделок слияния и поглощения огромна и не вызывает сомнений.
+        </p>
+      </div>
+      <div class="transactions__services services container">
+        <h3 class="services__title">Наши услуги по <a class="services__link" href="#">сопровождению сделок M&A</a></h3>
+        <ul class="services__list">
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/1.svg" alt="Пиктограмма услуги" width="71" height="86">
+              <h4 class="services__service-title">Разработка новой структуры управления бизнесом</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/2.svg" alt="Пиктограмма услуги" width="71" height="86">
+              <h4 class="services__service-title">Консультации по предпродажной подготовке бизнеса</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/3.svg" alt="Пиктограмма услуги" width="84" height="72">
+              <h4 class="services__service-title">Анализ стоимости бизнеса и активов</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/4.svg" alt="Пиктограмма услуги" width="99" height="59">
+              <h4 class="services__service-title">Консультации с покупателями и сопровождение</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/5.svg" alt="Пиктограмма услуги" width="70" height="76">
+              <h4 class="services__service-title">Юридический аудит приобретаемого актива</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/6.svg" alt="Пиктограмма услуги" width="77" height="74">
+              <h4 class="services__service-title">Разработка оптимальной схемы приобретения актива</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/7.svg" alt="Пиктограмма услуги" width="73" height="55">
+              <h4 class="services__service-title">Организация финансирования сделки</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/8.svg" alt="Пиктограмма услуги" width="53" height="70">
+              <h4 class="services__service-title">Подготовка и сопровождение документации</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/9.svg" alt="Пиктограмма услуги" width="69" height="78">
+              <h4 class="services__service-title">Получение разрешений в государственных органах</h4>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="services__card-link" href="#">
+              <img class="services__img" src="/img/icons/section_2/10.svg" alt="Пиктограмма услуги" width="84" height="66">
+              <h4 class="services__service-title">Интеграция нового актива в схему управления холдингом</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="transactions__line line line--white">
+        <button class="line__button button" type="button">Заказать сопровождение</button>
+      </div>
+    </section>
+    <section class="accounting-services decoration decoration--blue">
+      <div class="accounting-services__intro section-intro container">
+        <h2 class="section-intro__title section-intro__title--white section-intro__title--accounting-mobile">Бухгалтерские услуги</h2>
+        <p class="section-intro__text section-intro__text--white">
+          <b class="section-intro__strong section-intro__strong--white">Бухгалтерский учёт</b> это строго структурированная система сбора, регистрации и систематизации информации в денежном выражении о состоянии имущества, обязательств организации и их изменениях путём сплошного, непрерывного и документального учёта всех хозяйственных и экономических операций.
+        </p>
+      </div>
+      <div class="accounting-services__wrapper container">
+        <ul class="accounting-services__list">
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Документальное оформление</a>
+            </h3>
+            <p class="accounting-services__text">Документальное оформление всех хозяйственных операций предприятия</p>
+          </li>
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Обработка данных</a>
+            </h3>
+            <p class="accounting-services__text">Обработка, систематизация и введение данных в бухгалтерскую программу</p>
+          </li>
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Расчеты</a>
+            </h3>
+            <p class="accounting-services__text">Расчет заработной платы и налогов</p>
+          </li>
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Формирование отчетности</a>
+            </h3>
+            <p class="accounting-services__text">Формирование финансового результата предприятия</p>
+          </li>
+          <li class="accounting-services__item">
+            <div class="accounting-services__img-wrapper">
+              <img class="accounting-services__img" src="img/icons/section_3/folder.svg" alt="Пиктограмма" width="118" height="70">
+            </div>
+          </li>
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Налоговая отчетность</a>
+            </h3>
+            <p class="accounting-services__text">Оформление и подача бухгалтерской и налоговой отчетности в соответствующие</p>
+          </li>
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Консультирование органзаций</a>
+            </h3>
+            <p class="accounting-services__text">Консультирование по вопроса оптимизации финансовой функции и бухгалтерскому учету</p>
+          </li>
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Помощь в подборе персонала</a>
+            </h3>
+            <p class="accounting-services__text">Помощь в подборе персонала в отдел бухгалтерского и налогового учета</p>
+          </li>
+          <li class="accounting-services__item">
+            <h3 class="accounting-services__title">
+              <a class="accounting-services__link" href="#">Восстановление бухгалтерского учета</a>
+            </h3>
+            <p class="accounting-services__text">Восстановление функционирования предприятия и бухгалтерского учета</p>
+          </li>
+        </ul>
+      </div>
+      <div class="accounting-services__line line line--light-blue">
+        <button class="line__button button" type="button">Заказать бухгалтерские услуги</button>
+      </div>
+    </section>
+    <section class="advantages decoration decoration--top">
+      <div class="advantages__intro section-intro container">
+        <h2 class="section-intro__title section-intro__title--advantages-mobile">Преимущества Armata Financical Group</h2>
+        <p class="section-intro__text">
+          <b class="section-intro__strong">Компания AFG</b> поддерживает российские и иностранные компании, работающие на отечественном рынке в решении задач экономического роста, защиты своих интересов, управления текущей деятельностью. Помогает создавать системы владения активами, устанавливает коммуникации с новыми партнерами и рынками, организует сделки и привлекает капиталы.
+        </p>
+      </div>
+      <div class="advantages__types-container container">
+        <h3 class="advantages__title">Привлекательные условия сотрудничества</h3>
+        <div class="advantages__types">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <div class="advantages__item-wrapper">
+                <b class="advantages__type-title advantages__type-title--discounts">Скидки</b>
+                <p class="advantages__type-text">
+                  Предоставляем всем нашим
+                  клиентам уникальную
+                  возможность получить скидку
+                  <span class="advantages__percent">50%</span> на все услуги
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__item-wrapper">
+                <b class="advantages__type-title advantages__type-title--team">Команда</b>
+                <p class="advantages__type-text">
+                  У нас большой опыт работы
+                  в крупнейших консалтинговых
+                  компаниях
+                </p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__item-wrapper">
+                <b class="advantages__type-title advantages__type-title--speed">Скорость</b>
+                <p class="advantages__type-text">
+                  Приступаем к выполнению
+                  обязательст в день обращения
+                  в нашу компанию
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="advantages__line line line--gray">
+        <button class="line__button button" type="button">Обратиться к нам</button>
+      </div>
+    </section>
+    <section class="how decoration decoration--blue">
+      <div class="how__intro section-intro container">
+        <h2 class="section-intro__title section-intro__title--white">Как мы работаем</h2>
+      </div>
+      <div class="how__content container">
+        <ol class="how__list">
+          <li class="how__item">
+            <div class="how__item-wrapper ">
+              <p class="how__text how__text--request">
+                <span class="how__text-decor">1.</span> Вы оставляете заявку
+              </p>
+            </div>
+          </li>
+          <li class="how__item">
+            <div class="how__item-wrapper how__item-wrapper--contract">
+              <p class="how__text">
+                <span class="how__text-decor">2.</span> Подписываем договор
+              </p>
+            </div>
+          </li>
+          <li class="how__item">
+            <div class="how__item-wrapper how__item-wrapper--evaluation">
+              <p class="how__text">
+                <span class="how__text-decor">3.</span> Мы проводим оценку
+              </p>
+            </div>
+          </li>
+          <li class="how__item">
+            <div class="how__item-wrapper how__item-wrapper--reply">
+              <p class="how__text">
+                <span class="how__text-decor">4.</span> Вы получаете отчет
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <div class="how__line line line--light-blue">
+        <button class="line__button button" type="button">Оставить заявку</button>
+      </div>
+    </section>
+    <section class="contacts decoration decoration--top">
+      <div class="contacts__intro section-intro container">
+        <h2 class="section-intro__title section-intro__title--contacts-mobile">С кем можно связаться через сайт</h2>
+        <p class="section-intro__text">
+          Свяжитесь с одним из сотрудников и получите консультацию по работе с нашей компанией
+        </p>
+      </div>
+      <div class="contacts__people container">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <div class="contacts__item__wrapper">
+              <b class="contacts__title">Евгений Александрович</b>
+              <p class="contacts__text">Директор компании</p>
+              <a class="contacts__link" href="tel: +79295689898">+7 929 568 98 98</a>
+            </div>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__item__wrapper">
+              <b class="contacts__title contacts__title--human2">Виталий Дое</b>
+              <p class="contacts__text">Менеджер продаж</p>
+              <a class="contacts__link" href="tel: +79295689898">+7 929 568 98 98</a>
+            </div>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__item__wrapper">
+              <b class="contacts__title contacts__title--human3">Екатерина</b>
+              <p class="contacts__text">Старший менеджер</p>
+              <a class="contacts__link" href="tel: +79295689898">+7 929 568 98 98</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="reviews decoration decoration--gray">
+      <div class="reviews__content-wrapper container">
+        <div class="reviews__intro section-intro">
+          <h2 class="section-intro__title">Отзывы клиентов</h2>
           <p class="section-intro__text">
-            <b class="section-intro__strong">Определение рыночной стоимости</b> любого актива, или <a class="section-intro__link" href="#">оценка</a> — это первый этап всех рыночных отношений. Оценка заключается в объективном анализе объекта с целью придания ему стоимостных характеристик, выраженных в едином денежном эквиваленте.
+            Послушайте, что о нас говорят благодарные клиенты:
           </p>
         </div>
-        <div class="evaluation__types assessments-types">
-          <div class="evaluation__list-wrapper evaluation__list-wrapper--bg container">
-            <ul class="assessments-types__list">
-              <li class="assessments-types__item assessments-types__item--top">
-                <h3 class="assessments-types__title">
-                  <a class="assessments-types__link" href="#">Оценка ценных <br>  бумаг</a>
-                </h3>
-                <p class="assessments-types__description">Определение рыночной стоимости ценных бумаг и документов</p>
+        <div class="reviews__content">
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <blockquote class="reviews__review">
+                <img class="reviews__img" src="img/team/1.jpg" alt="Михаил Алексеевич Потапов" height="120" width="120">
+                <cite class="reviews__author">Михаил Алексеевич Потапов</cite>
+                <p class="reviews__company">ОАО “Роскомнадзор”</p>
+                <p class="reviews__text">
+                  Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил живет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил живет.
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+          <button class="reviews__button reviews__button--prev" type="button">Предыдущий отзыв</button>
+          <button class="reviews__button reviews__button--next" type="button">Следующий отзыв</button>
+          <div class="reviews__mobile-slider">
+            <ul class="reviews__dots">
+              <li class="reviews__dot">
+                <button class="reviews__dot-button reviews__dot-button--active" type="button">
+                  <span class="visually-hidden">1</span>
+                </button>
               </li>
-              <li class="assessments-types__item assessments-types__item--top">
-                <h3 class="assessments-types__title">
-                  <a class="assessments-types__link" href="#">Оценка бизнеса и предприятий</a>
-                </h3>
-                <p class="assessments-types__description">Профессиональная оценка бизнес-активов предприятия</p>
+              <li class="reviews__dot">
+                <button class="reviews__dot-button" type="button">
+                  <span class="visually-hidden">2</span>
+                </button>
               </li>
-              <li class="assessments-types__item assessments-types__item--top">
-                <h3 class="assessments-types__title">
-                  <a class="assessments-types__link" href="#">Оценка недвижимости</a>
-                </h3>
-                <p class="assessments-types__description">Профессиональная оценка жилого и нежилого имущества</p>
-              </li>
-              <li class="assessments-types__item assessments-types__item--top">
-                <h3 class="assessments-types__title">
-                  <a class="assessments-types__link" href="#">Оценка машин и оборудования</a>
-                </h3>
-                <p class="assessments-types__description">Профессиональная оценка машин и оборудования для бизнеса</p>
-              </li>
-              <li class="assessments-types__item assessments-types__item--top">
-                <h3 class="assessments-types__title">
-                  <a class="assessments-types__link" href="#">Оценка инвестиционных проектов</a>
-                </h3>
-                <p class="assessments-types__description">Независимая оценка бизнес проектов любого направления</p>
+              <li class="reviews__dot">
+                <button class="reviews__dot-button" type="button">
+                  <span class="visually-hidden">3</span>
+                </button>
               </li>
             </ul>
           </div>
-          <div class="evaluation__triangle">
-            <img class="evaluation__logo" src="/img/logo_triangle.svg" alt="Логотип Armata Financical Groul" height="55" width="118">
-            <img class="evaluation__scales" src="/img/icons/section_1/scales.svg" alt="Логотип Armata Financical Groul" height="174" width="159">
-          </div>
         </div>
       </div>
-    </div>
-    <div class="evaluation__continuation">
-      <div class="evaluation__list-wrapper container">
-        <ul class="assessments-types__list">
-          <li class="assessments-types__item assessments-types__item--bottom">
-            <h3 class="assessments-types__title">
-              <a class="assessments-types__link" href="#">Оценка нематериальных активов</a>
-            </h3>
-            <p class="assessments-types__description assessments-types__description--bottom">Определение стоимости нематериальных активов различных видов</p>
-          </li>
-          <li class="assessments-types__item assessments-types__item--bottom">
-            <h3 class="assessments-types__title">
-              <a class="assessments-types__link" href="#">Оценка себестоимости продукции</a>
-            </h3>
-            <p class="assessments-types__description assessments-types__description--bottom">Определение себестоимости продукции и ее прибыльности</p>
-          </li>
-          <li class="assessments-types__item assessments-types__item--bottom">
-            <h3 class="assessments-types__title">
-              <a class="assessments-types__link" href="#">Бизнес-планирование <br> и оценка</a>
-            </h3>
-            <p class="assessments-types__description assessments-types__description--bottom">Разработка бизнес-плана и оценка его эффективности</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="evaluation__line line line--blue">
-      <button class="line__button button" type="button">Заказать оценку</button>
-    </div>
-  </section>
-  <section class="transactions decoration decoration--top">
-    <div class="transactions__intro section-intro container">
-      <h2 class="section-intro__title">Сделки M&A</h2>
-      <p class="section-intro__text">
-        <b class="section-intro__strong">Сделки cлияния и поглощения</b> – это процессы укрупнения бизнеса и капитала. Популярность сделки слияния и поглощения приобрели в конце 80-х годов и сейчас они являются одним из основных движущих факторов развития бизнеса на макро и микроуровне. Эффективность сделок слияния и поглощения огромна и не вызывает сомнений.
-      </p>
-    </div>
-    <div class="transactions__services services container">
-      <h3 class="services__title">Наши услуги по <a class="services__link" href="#">сопровождению сделок M&A</a></h3>
-      <ul class="services__list">
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/1.svg" alt="Пиктограмма услуги" width="71" height="86">
-            <h4 class="services__service-title">Разработка новой структуры управления бизнесом</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/2.svg" alt="Пиктограмма услуги" width="71" height="86">
-            <h4 class="services__service-title">Консультации по предпродажной подготовке бизнеса</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/3.svg" alt="Пиктограмма услуги" width="84" height="72">
-            <h4 class="services__service-title">Анализ стоимости бизнеса и активов</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/4.svg" alt="Пиктограмма услуги" width="99" height="59">
-            <h4 class="services__service-title">Консультации с покупателями и сопровождение</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/5.svg" alt="Пиктограмма услуги" width="70" height="76">
-            <h4 class="services__service-title">Юридический аудит приобретаемого актива</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/6.svg" alt="Пиктограмма услуги" width="77" height="74">
-            <h4 class="services__service-title">Разработка оптимальной схемы приобретения актива</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/7.svg" alt="Пиктограмма услуги" width="73" height="55">
-            <h4 class="services__service-title">Организация финансирования сделки</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/8.svg" alt="Пиктограмма услуги" width="53" height="70">
-            <h4 class="services__service-title">Подготовка и сопровождение документации</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/9.svg" alt="Пиктограмма услуги" width="69" height="78">
-            <h4 class="services__service-title">Получение разрешений в государственных органах</h4>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="services__card-link" href="#">
-            <img class="services__img" src="/img/icons/section_2/10.svg" alt="Пиктограмма услуги" width="84" height="66">
-            <h4 class="services__service-title">Интеграция нового актива в схему управления холдингом</h4>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="transactions__line line line--white">
-      <button class="line__button button" type="button">Заказать сопровождение</button>
-    </div>
-  </section>
-  <section class="accounting-services decoration decoration--blue">
-    <div class="accounting-services__intro section-intro container">
-      <h2 class="section-intro__title section-intro__title--white">Бухгалтерские услуги</h2>
-      <p class="section-intro__text section-intro__text--white">
-        <b class="section-intro__strong section-intro__strong--white">Бухгалтерский учёт</b> это строго структурированная система сбора, регистрации и систематизации информации в денежном выражении о состоянии имущества, обязательств организации и их изменениях путём сплошного, непрерывного и документального учёта всех хозяйственных и экономических операций.
-      </p>
-    </div>
-    <div class="accounting-services__wrapper container">
-      <ul class="accounting-services__list">
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Документальное оформление</a>
-          </h3>
-          <p class="accounting-services__text">Документальное оформление всех хозяйственных операций предприятия</p>
-        </li>
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Обработка данных</a>
-          </h3>
-          <p class="accounting-services__text">Обработка, систематизация и введение данных в бухгалтерскую программу</p>
-        </li>
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Расчеты</a>
-          </h3>
-          <p class="accounting-services__text">Расчет заработной платы и налогов</p>
-        </li>
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Формирование отчетности</a>
-          </h3>
-          <p class="accounting-services__text">Формирование финансового результата предприятия</p>
-        </li>
-        <li class="accounting-services__item">
-          <div class="accounting-services__img-wrapper">
-            <img class="accounting-services__img" src="img/icons/section_3/folder.svg" alt="Пиктограмма" width="118" height="70">
-          </div>
-        </li>
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Налоговая отчетность</a>
-          </h3>
-          <p class="accounting-services__text">Оформление и подача бухгалтерской и налоговой отчетности в соответствующие</p>
-        </li>
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Консультирование органзаций</a>
-          </h3>
-          <p class="accounting-services__text">Консультирование по вопроса оптимизации финансовой функции и бухгалтерскому учету</p>
-        </li>
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Помощь в подборе персонала</a>
-          </h3>
-          <p class="accounting-services__text">Помощь в подборе персонала в отдел бухгалтерского и налогового учета</p>
-        </li>
-        <li class="accounting-services__item">
-          <h3 class="accounting-services__title">
-            <a class="accounting-services__link" href="#">Восстановление бухгалтерского учета</a>
-          </h3>
-          <p class="accounting-services__text">Восстановление функционирования предприятия и бухгалтерского учета</p>
-        </li>
-      </ul>
-    </div>
-    <div class="accounting-services__line line line--light-blue">
-      <button class="line__button button" type="button">Заказать бухгалтерские услуги</button>
-    </div>
-  </section>
-  <section class="advantages decoration decoration--top">
-    <div class="advantages__intro section-intro container">
-      <h2 class="section-intro__title">Преимущества Armata Financical Group</h2>
-      <p class="section-intro__text">
-        <b class="section-intro__strong">Компания AFG</b> поддерживает российские и иностранные компании, работающие на отечественном рынке в решении задач экономического роста, защиты своих интересов, управления текущей деятельностью. Помогает создавать системы владения активами, устанавливает коммуникации с новыми партнерами и рынками, организует сделки и привлекает капиталы.
-      </p>
-    </div>
-    <div class="advantages__types-container container">
-      <h3 class="advantages__title">Привлекательные условия сотрудничества</h3>
-      <div class="advantages__types">
-        <ul class="advantages__list">
-          <li class="advantages__item">
-            <div class="advantages__item-wrapper">
-              <b class="advantages__type-title advantages__type-title--discounts">Скидки</b>
-              <p class="advantages__type-text">
-                Предоставляем всем нашим
-                клиентам уникальную
-                возможность получить скидку
-                <span class="advantages__percent">50%</span> на все услуги
-              </p>
-            </div>
-          </li>
-          <li class="advantages__item">
-            <div class="advantages__item-wrapper">
-              <b class="advantages__type-title advantages__type-title--team">Команда</b>
-              <p class="advantages__type-text">
-                У нас большой опыт работы
-                в крупнейших консалтинговых
-                компаниях
-              </p>
-            </div>
-          </li>
-          <li class="advantages__item">
-            <div class="advantages__item-wrapper">
-              <b class="advantages__type-title advantages__type-title--speed">Скорость</b>
-              <p class="advantages__type-text">
-                Приступаем к выполнению
-                обязательст в день обращения
-                в нашу компанию
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="advantages__line line line--gray">
-      <button class="line__button button" type="button">Обратиться к нам</button>
-    </div>
-  </section>
-  <section class="how decoration decoration--blue">
-    <div class="how__intro section-intro container">
-      <h2 class="section-intro__title section-intro__title--white">Как мы работаем</h2>
-    </div>
-    <div class="how__content container">
-      <ol class="how__list">
-        <li class="how__item">
-          <div class="how__item-wrapper ">
-            <p class="how__text how__text--request">
-              <span class="how__text-decor">1.</span> Вы оставляете заявку
+    </section>
+    <section class="about decoration decoration--top">
+      <div class="about__wrapper container">
+        <div class="about__content">
+          <div class="about__intro section-intro section-intro--about">
+            <h2 class="section-intro__title section-intro__title--about">Мы - профессионалы!</h2>
+            <p class="section-intro__text section-intro__text--about">
+              Наши специалисты являются профессионалами высочайшего класса, лауреатами и призерами многих конкурсов и первенств в области финансов и бухгалтерии. За своими плечами имеют богатый опыт осуществления проектов в области оценки, ведения бухгалтерии, слияний и присоединений в сферах строительства, жилищно-коммунальных услуг, производства, аэрокосмической промышленности и прочих.
             </p>
           </div>
-        </li>
-        <li class="how__item">
-          <div class="how__item-wrapper how__item-wrapper--contract">
-            <p class="how__text">
-              <span class="how__text-decor">2.</span> Подписываем договор
-            </p>
-          </div>
-        </li>
-        <li class="how__item">
-          <div class="how__item-wrapper how__item-wrapper--evaluation">
-            <p class="how__text">
-              <span class="how__text-decor">3.</span> Мы проводим оценку
-            </p>
-          </div>
-        </li>
-        <li class="how__item">
-          <div class="how__item-wrapper how__item-wrapper--reply">
-            <p class="how__text">
-              <span class="how__text-decor">4.</span> Вы получаете отчет
-            </p>
-          </div>
-        </li>
-      </ol>
-    </div>
-    <div class="how__line line line--light-blue">
-      <button class="line__button button" type="button">Оставить заявку</button>
-    </div>
-  </section>
-  <section class="contacts decoration decoration--top">
-    <div class="contacts__intro section-intro container">
-      <h2 class="section-intro__title">С кем можно связаться через сайт</h2>
-      <p class="section-intro__text">
-        Свяжитесь с одним из сотрудников и получите консультацию по работе с нашей компанией
-      </p>
-    </div>
-    <div class="contacts__people container">
-      <ul class="contacts__list">
-        <li class="contacts__item">
-          <div class="contacts__item__wrapper">
-            <b class="contacts__title">Евгений Александрович</b>
-            <p class="contacts__text">Директор компании</p>
-            <a class="contacts__link" href="tel: +79295689898">+7 929 568 98 98</a>
-          </div>
-        </li>
-        <li class="contacts__item">
-          <div class="contacts__item__wrapper">
-            <b class="contacts__title contacts__title--human2">Виталий Дое</b>
-            <p class="contacts__text">Менеджер продаж</p>
-            <a class="contacts__link" href="tel: +79295689898">+7 929 568 98 98</a>
-          </div>
-        </li>
-        <li class="contacts__item">
-          <div class="contacts__item__wrapper">
-            <b class="contacts__title contacts__title--human3">Екатерина</b>
-            <p class="contacts__text">Старший менеджер</p>
-            <a class="contacts__link" href="tel: +79295689898">+7 929 568 98 98</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="reviews decoration decoration--gray">
-    <div class="reviews__content-wrapper container">
-      <div class="reviews__intro section-intro">
-        <h2 class="section-intro__title">Отзывы клиентов</h2>
-        <p class="section-intro__text">
-          Послушайте, что о нас говорят благодарные клиенты:
-        </p>
-      </div>
-      <div class="reviews__content">
-        <ul class="reviews__list">
-          <li class="reviews__item">
-            <blockquote class="reviews__review">
-              <img class="reviews__img" src="img/team/1.jpg" alt="Михаил Алексеевич Потапов" height="120" width="120">
-              <cite class="reviews__author">Михаил Алексеевич Потапов</cite>
-              <p class="reviews__company">ОАО “Роскомнадзор”</p>
-              <p class="reviews__text">
-                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил живет. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подзаголовок вскоре, деревни? Вопроса строчка пор, последний вершину заглавных единственное? Над щеке злых, залетают то безорфографичный своих текстов бросил живет.
-              </p>
-            </blockquote>
-          </li>
-        </ul>
-        <button class="reviews__button reviews__button--prev" type="button">Предыдущий отзыв</button>
-        <button class="reviews__button reviews__button--next" type="button">Следующий отзыв</button>
-      </div>
-    </div>
-  </section>
-  <section class="about decoration decoration--top">
-    <div class="about__wrapper container">
-      <div class="about__content">
-        <div class="about__intro section-intro section-intro--about">
-          <h2 class="section-intro__title section-intro__title--about">Мы - профессионалы!</h2>
-          <p class="section-intro__text section-intro__text--about">
-            Наши специалисты являются профессионалами высочайшего класса, лауреатами и призерами многих конкурсов и первенств в области финансов и бухгалтерии. За своими плечами имеют богатый опыт осуществления проектов в области оценки, ведения бухгалтерии, слияний и присоединений в сферах строительства, жилищно-коммунальных услуг, производства, аэрокосмической промышленности и прочих.
+          <ul class="about__list">
+            <li class="about__item">
+              <p class="about__text about__text--diploma">Диплом по налогообложению РФ (ДипНРФ), квалификация ACCA</p>
+            </li>
+            <li class="about__item">
+              <p class="about__text about__text--certificate">Аттестат профессионального бухгалтера Института профессиональных бухгалтеров России</p>
+            </li>
+            <li class="about__item">
+              <p class="about__text about__text--certificate2">Аттестат налогового консультанта 2-й категории Палаты налоговых консультантов России</p>
+            </li>
+            <li class="about__item">
+              <p class="about__text about__text--medalist">Призер Первой всероссийской премии бухгалтеров строительной отрасли «Профессиональные грани-2011»</p>
+            </li>
+          </ul>
+        </div>
+        <div class="about__form offer-form offer-form--about">
+          <h2 class="offer-form__heading offer-form__heading--about">Оставить заявку</h2>
+          <p class="offer-form__text offer-form__text--about">
+            Оставьте заявку и мы свяжемся с вами<br>
+            в течение 15 минут в рабочее<br>
+            время с 10:00 до 18:00 c пн-пт.
           </p>
+          <form class="offer-form__form" action="#" method="post">
+            <div class="offer-form__wrapper">
+              <label class="offer-form__label offer-form__label--about " for="name2">Ваше имя:</label>
+              <input class="offer-form__input offer-form__input--about" id="name2" name="user-name" type="text" required>
+            </div>
+            <div class="offer-form__wrapper">
+              <label class="offer-form__label offer-form__label--about" for="phone2">Ваш телефон:</label>
+              <input class="offer-form__input offer-form__input--about" id="phone2" name="user-phone" type="text" required>
+            </div>
+            <button class="offer-form__button button">Отправить</button>
+          </form>
         </div>
-        <ul class="about__list">
-          <li class="about__item">
-            <p class="about__text about__text--diploma">Диплом по налогообложению РФ (ДипНРФ), квалификация ACCA</p>
-          </li>
-          <li class="about__item">
-            <p class="about__text about__text--certificate">Аттестат профессионального бухгалтера Института профессиональных бухгалтеров России</p>
-          </li>
-          <li class="about__item">
-            <p class="about__text about__text--certificate2">Аттестат налогового консультанта 2-й категории Палаты налоговых консультантов России</p>
-          </li>
-          <li class="about__item">
-            <p class="about__text about__text--medalist">Призер Первой всероссийской премии бухгалтеров строительной отрасли «Профессиональные грани-2011»</p>
-          </li>
-        </ul>
       </div>
-      <div class="about__form offer-form offer-form--about">
-        <h2 class="offer-form__heading offer-form__heading--about">Оставить заявку</h2>
-        <p class="offer-form__text offer-form__text--about">
-          Оставьте заявку и мы свяжемся с вами<br>
-          в течение 15 минут в рабочее<br>
-          время с 10:00 до 18:00 c пн-пт.
-        </p>
-        <form class="offer-form__form" action="#" method="post">
-          <div class="offer-form__wrapper">
-            <label class="offer-form__label offer-form__label--about " for="name2">Ваше имя:</label>
-            <input class="offer-form__input offer-form__input--about" id="name2" name="user-name" type="text" required>
-          </div>
-          <div class="offer-form__wrapper">
-            <label class="offer-form__label offer-form__label--about" for="phone2">Ваш телефон:</label>
-            <input class="offer-form__input offer-form__input--about" id="phone2" name="user-phone" type="text" required>
-          </div>
-          <button class="offer-form__button button">Отправить</button>
-        </form>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
   <footer class="page-footer decoration decoration--blue decoration--footer">
     <div class="page-footer__piece container">
       <div class="page-footer__header header">

@@ -99,3 +99,14 @@
 .advantages__percent {
   color: $yellow;
 }
+
+@media (max-width: 1200px) {
+
+  .advantages__item {
+    margin-bottom: 30px;
+  }
+
+  .advantages__item:last-child {
+    margin-bottom: 0  ;
+  }
+}

@@ -64,3 +64,32 @@
 .about__text--medalist::before {
   background-image: url("/img/icons/section_8/4.svg");
 }
+
+@media (max-width: $desktop-width) {
+
+  .about__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .about__list {
+    margin-bottom: 45px;
+  }
+
+}
+
+@media (max-width: $tablet-width) {
+
+  .about__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about__item {
+    margin-bottom: 40px;
+  }
+
+  .about__item:last-child {
+    margin: 0;
+  }
+
+}

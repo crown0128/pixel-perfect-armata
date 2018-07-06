@@ -43,3 +43,42 @@
   color: $yellow;
   opacity: 1;
 }
+
+
+@media (max-width: 1200px) {
+
+  .main-nav {
+    width: 280px;
+    border-bottom: #111821 4px solid;
+    border-top: #232D3B 4px solid;
+  }
+
+  .main-nav__list {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main-nav__item {
+    padding: 0;
+    background-color: #1c252c;
+    border-bottom: #222C36 1px solid;
+  }
+
+  .main-nav__item--selected {
+    background-color: #273646;
+  }
+
+  .main-nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .main-nav__link--selected {
+    font-family: $RalewayBold;
+    text-decoration: none;
+  }
+}

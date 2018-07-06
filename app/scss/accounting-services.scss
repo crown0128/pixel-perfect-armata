@@ -112,3 +112,38 @@
   background-color: $yellow;
   border-radius: 10em;
 }
+
+@media (max-width: 1200px) {
+
+  .accounting-services__intro {
+    margin-bottom: 60px;
+  }
+
+  .accounting-services__wrapper {
+    min-height: auto;
+    background-image: none;
+    padding-bottom: 75px;
+  }
+
+  .accounting-services__item {
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .accounting-services__text {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #546476;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .accounting-services__item:nth-child(1n) {
+    width: 768px;
+    padding: 0;
+  }
+
+  .accounting-services__item:nth-child(5) {
+    display: none;
+  }
+
+}

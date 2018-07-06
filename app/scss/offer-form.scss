@@ -77,3 +77,10 @@
 .offer-form__label--about {
   color: #778390;
 }
+
+
+@media (max-width: 1200px) {
+  .offer-form {
+    width: 768px;
+  }
+}

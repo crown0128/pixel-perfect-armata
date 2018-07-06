@@ -1,6 +1,7 @@
 .page-footer {
   background-color: $navyblue;
 }
+
 .page-footer__piece {
   display: flex;
   flex-direction: column;
@@ -13,6 +14,7 @@
   width: 100%;
 
 }
+
 .page-footer__footer {
   height: 37px;
   background-color: #1f2c39;
@@ -22,9 +24,9 @@
   width: 100%;
   height: 100%;
   opacity: 0.5;
-  background-color: transparent;
   overflow: hidden;
   text-indent: -9999em;
+  background-color: $navyblue;
   background-image: url("/img/top.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -38,4 +40,17 @@
 
 .page-footer__button:hover {
   opacity: 1;
+}
+
+
+@media (max-width: $tablet-width) {
+
+  .page-footer__header {
+    margin: 0;
+  }
+
+  .page-footer__piece {
+    height: 70px;
+  }
+
 }
