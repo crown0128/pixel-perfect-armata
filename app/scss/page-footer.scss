@@ -12,7 +12,6 @@
 
 .page-footer__header {
   width: 100%;
-
 }
 
 .page-footer__footer {
@@ -42,9 +41,7 @@
   opacity: 1;
 }
 
-
 @media (max-width: $tablet-width) {
-
   .page-footer__header {
     margin: 0;
   }
@@ -52,5 +49,4 @@
   .page-footer__piece {
     height: 70px;
   }
-
 }

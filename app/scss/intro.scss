@@ -37,7 +37,7 @@
 }
 
 .intro__link::before {
-  content: '';
+  content: "";
   display: block;
   margin-right: 10px;
   height: 0;
@@ -58,7 +58,6 @@
 }
 
 @media (max-width: $tablet-width) {
-
   .intro__title {
     font-size: 42px;
     line-height: 45px;
@@ -72,5 +71,4 @@
   .intro__item {
     margin-bottom: 12px;
   }
-
 }

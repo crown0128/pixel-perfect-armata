@@ -9,9 +9,9 @@
   border: none;
   border-bottom: 3px solid $dark-yellow;
   cursor: pointer;
- }
-
-.button:hover, .button:focus {
-  background-color: $yellow-hover;
 }
 
+.button:hover,
+.button:focus {
+  background-color: $yellow-hover;
+}

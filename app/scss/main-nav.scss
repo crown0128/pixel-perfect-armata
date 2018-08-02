@@ -44,13 +44,11 @@
   opacity: 1;
 }
 
-
 @media (max-width: 1200px) {
-
   .main-nav {
     width: 280px;
     border-bottom: #111821 4px solid;
-    border-top: #232D3B 4px solid;
+    border-top: #232d3b 4px solid;
   }
 
   .main-nav__list {
@@ -61,7 +59,7 @@
   .main-nav__item {
     padding: 0;
     background-color: #1c252c;
-    border-bottom: #222C36 1px solid;
+    border-bottom: #222c36 1px solid;
   }
 
   .main-nav__item--selected {

@@ -55,7 +55,6 @@
 }
 
 @media (max-width: $desktop-width) {
-
   .evaluation__list-wrapper--bg {
     background-position: bottom;
     background-size: contain;
@@ -68,13 +67,10 @@
   .evaluation__continuation {
     padding-top: 30px;
   }
-
 }
 
 @media (max-width: $tablet-width) {
-
   .evaluation__list-wrapper--bg {
     background-size: auto;
   }
-
 }
